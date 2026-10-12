@@ -1,0 +1,7 @@
+/control/verbose 1
+/run/verbose 1
+/vis/open OGL 600x600-0+0
+/vis/drawVolume
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
